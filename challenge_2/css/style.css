@@ -1,0 +1,77 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+div{
+    border: 1px solid black;
+}
+
+/*profile div*/
+#profile{
+    display: inline-block;
+    width: 1fr;
+    height: 215vh;
+    color: white;
+    background-color: black;
+}
+
+#profile_pic{
+    object-fit: fill;
+    margin-left: 65px;
+    border-radius: 50%;
+}
+
+#name{
+    font-family: fantasy;
+    font-size: 18px;
+    text-align: center;
+}
+#position{
+    font-family:cursive;
+    font-size: 15px;
+    text-align: center;
+}
+
+/*nav stying*/
+#nav_head{
+    font-family: cursive;
+    font-size: 18px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    text-decoration-color: antiquewhite;
+    line-height: 3em;
+    text-align: center;
+}
+
+
+/*display pictures*/
+#pictures{
+    display: inline-block;
+    width: 910spx;
+    text-align: center;
+}
+
+#group1{
+    display: inline-block;
+}
+#group2{
+    display:inline-block;
+}
+
+#group3{
+    display:inline-block;
+}
+#group4{
+    display:inline-block;
+}
+#group5{
+    display:inline-block;
+}
+#group6{
+    display:inline-block;
+}
+
+
